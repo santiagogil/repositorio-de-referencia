@@ -1,0 +1,40 @@
+{
+  "name": "repositorio-de-referencia",
+  "version": "0.1.0",
+  "description": "Repositorio de referencia utilizado en el libro entornos http://santiagogil.github.io/entornos/.",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^6.3.3"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "jscs": "^1.8.1",
+    "jscs-jsdoc": "^0.3.2",
+    "jsdoc": "^3.3.0-alpha10",
+    "jshint": "^2.5.10",
+    "readmetree": "^1.2.0",
+    "retire": "^0.3.5",
+    "tape": "^3.0.3",
+    "testling": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santiagogil/repositorio-de-referencia"
+  },
+  "keywords": [
+    "npm",
+    "tape",
+    "coverify",
+    "jsdoc",
+    "jshint"
+  ],
+  "author": "Santiago Gil",
+  "license": "gpl3",
+  "bugs": {
+    "url": "https://github.com/santiagogil/repositorio-de-referencia/issues"
+  },
+  "homepage": "https://github.com/santiagogil/repositorio-de-referencia"
+}
