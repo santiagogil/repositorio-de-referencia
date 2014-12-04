@@ -15,11 +15,24 @@
     "jshint": "^2.5.10",
     "readmetree": "^1.2.0",
     "retire": "^0.3.5",
-    "tape": "^3.0.3",
-    "testling": "^1.7.1"
+    "tape": "^3.0.3"
+  },
+    "testling": {
+  "files": "tests/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+   ]
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "test": "browserify -t coverify tests/*.js | testling -u | coverify"
   },
   "repository": {
     "type": "git",
