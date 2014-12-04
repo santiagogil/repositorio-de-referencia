@@ -32,7 +32,8 @@
   },
   "scripts": {
 
-    "test": "browserify -t coverify tests/*.js | testling -u | coverify"
+    "test": "browserify -t coverify tests/*.js | testling -u | coverify",
+    "valida": "jshint ./*.js & jscs ./*.js"
   },
   "repository": {
     "type": "git",
