@@ -37,7 +37,8 @@
     "test": "browserify -t coverify tests/*.js | testling -u | coverify",
     "valida": "jshint ./*.js & jscs ./*.js & flow check",
     "docs": "readme package.json > README.md & docme README.md -- -l *.js",
-    "autoayuda": "readmetree"
+    "autoayuda": "readmetree",
+    "vulnerabilidades": "retire"
   },
   "repository": {
     "type": "git",
