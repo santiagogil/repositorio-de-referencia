@@ -1,5 +1,5 @@
 var test = require('tape');
-var suma = require('../index.js');
+var suma = require('../suma.js');
 
 test('Probando nuevo modulo', function(t) {
   t.plan(2);
