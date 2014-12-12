@@ -4,7 +4,8 @@
   "description": "Repositorio de referencia utilizado en el libro entornos http://santiagogil.github.io/entornos/.",
   "main": "index.js",
   "dependencies": {
-    "browserify": "^6.3.3"
+    "browserify": "^6.3.3",
+    "domify": "^1.3.1"
   },
   "devDependencies": {
     "beefy": "^2.1.1",
