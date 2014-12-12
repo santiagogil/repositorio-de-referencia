@@ -1,14 +1,4 @@
-/** @module suma */
+var domify = require('domify');
 
-/**
- * Suma dos nx&uacute;meros.
- * @function
- * @name suma
- * @param {number} a - Primer n&uacute;mero a sumar.
- * @param {number} b - Segundo n&uacute;mero a sumar.
- * @returns {number} - La suma de a y b
- */
-
-module.exports = function suma(a, b) {
-  return a + b;
-}
+var html = '<h1>Bienvenido al servidor de desarrollo</h2>';
+document.body.appendChild(domify(html));
